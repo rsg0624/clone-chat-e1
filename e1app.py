@@ -4,9 +4,9 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent))
 
 import streamlit as st
-from intent import detect_intent, 
-from emotion detect_emotion, 
-from map map_to_action, 
+from intent import detect_intent
+from emotion detect_emotion
+from map map_to_action
 from personality get_personality
 
 st.set_page_config(page_title="Clone Chat – E1", layout="centered")
