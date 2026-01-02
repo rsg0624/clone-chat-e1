@@ -1,0 +1,4 @@
+{
+  "funny": { "name": "Funny", "style": "Playful" },
+  "serious": { "name": "Serious", "style": "Calm" }
+}
