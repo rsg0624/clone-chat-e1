@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-DATA = Path(__file__).parent / "data" / "personalities.json"
+DATA = Path(__file__).parent / "personalities.json"
 
 def get_personality(name="funny"):
     with open(DATA) as f:
