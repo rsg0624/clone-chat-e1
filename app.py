@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).parent))
+
 import streamlit as st
 from engine import detect_intent, detect_emotion, map_to_action, get_personality
 
